@@ -11,8 +11,8 @@ spring:
          git:
            uri: https://gitee.com/ajax168/springCloudConfig/
            searchPaths: /
-           username: ajax168
-           password: my19841029b
+           username: 123
+           password: 123
        label: master
 
 eureka:
