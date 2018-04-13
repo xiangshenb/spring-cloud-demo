@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8081
+  compression:
+      enabled: true
+      min-response-size: 2048
+      mime-types: application/json,application/xml,text/html,text/xml,text/plain
+  undertow:
+    accesslog:
+      enabled: true
+      dir: D:\javaWork\SpringCloudDemo\client1\logs\
+      pattern: "\"%{c,tranceId}\" \"%{i,versionCode}\" \"%{i,deviceId}\" %h %l %u %t \"%r\" %s %b \"%{i,Referer}\" \"%{i,user-Agent}\""
+management:
+    server:
+      port: 8621
+    metrics:
+      export:
+        atlas:
+          config-refresh-frequency: 6s
+
+spring:
+  cloud:
+    config:
+      label: master
+      profile: dev
+      name: cfg-dev
+      discovery:
+         enabled: true
+         serviceId: config

@@ -1,0 +1,8 @@
+rootProject.name = 'SpringCloudDemo'
+
+include "register"
+include "client1"
+include "client10"
+include "zuul"
+include "config"
+
