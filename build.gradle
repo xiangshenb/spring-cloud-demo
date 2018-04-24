@@ -31,6 +31,8 @@ subprojects{
         compile.exclude module: "spring-boot-starter-tomcat"
     }
 
+
+
     buildscript {
         repositories {
             mavenLocal()

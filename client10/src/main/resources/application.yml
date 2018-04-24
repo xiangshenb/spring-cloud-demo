@@ -4,9 +4,14 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://ajax:123456@localhost:8080/eureka/
 server:
   port: 8082
+  undertow:
+      accesslog:
+        enabled: true
+        dir: D:\javaWork\SpringCloudDemo\client10\logs\
+        pattern: "\"%{c,tranceId}\" \"%{i,versionCode}\" \"%{i,deviceId}\" %h %l %u %t \"%r\" %s %b \"%{i,Referer}\" \"%{i,user-Agent}\""
   compression:
     enabled: true
     min-response-size: 2048
