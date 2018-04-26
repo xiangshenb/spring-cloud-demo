@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringCloudDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringCloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client1/client1.iml" filepath="$PROJECT_DIR$/.idea/modules/client1/client1.iml" group="client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client10/client10.iml" filepath="$PROJECT_DIR$/.idea/modules/client10/client10.iml" group="client10" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client10/client10_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client10/client10_main.iml" group="client10" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client10/client10_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client10/client10_test.iml" group="client10" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client1/client1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client1/client1_main.iml" group="client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client1/client1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client1/client1_test.iml" group="client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_main.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_test.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register/register.iml" filepath="$PROJECT_DIR$/.idea/modules/register/register.iml" group="register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register/register_main.iml" filepath="$PROJECT_DIR$/.idea/modules/register/register_main.iml" group="register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register/register_test.iml" filepath="$PROJECT_DIR$/.idea/modules/register/register_test.iml" group="register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul/zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul/zuul.iml" group="zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul/zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul/zuul_main.iml" group="zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul/zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul/zuul_test.iml" group="zuul" />
+    </modules>
+  </component>
+</project>
